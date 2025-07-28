@@ -28,103 +28,126 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel_Login = new Panel();
-            lblCentralTec = new Label();
-            lblLogin = new Label();
-            label1 = new Label();
-            label2 = new Label();
+            pictureBox3 = new PictureBox();
+            txtSenha = new TextBox();
             txtUsuario = new TextBox();
+            pictureBox2 = new PictureBox();
+            panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             panel_Login.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel_Login
             // 
-            panel_Login.BackColor = Color.FromArgb(16, 43, 78);
+            panel_Login.BackColor = Color.White;
+            panel_Login.Controls.Add(pictureBox3);
+            panel_Login.Controls.Add(txtSenha);
             panel_Login.Controls.Add(txtUsuario);
-            panel_Login.Controls.Add(label2);
-            panel_Login.Controls.Add(label1);
-            panel_Login.Controls.Add(lblLogin);
-            panel_Login.Controls.Add(lblCentralTec);
-            panel_Login.Location = new Point(742, 217);
+            panel_Login.Controls.Add(pictureBox2);
+            panel_Login.Location = new Point(1222, 278);
             panel_Login.Name = "panel_Login";
-            panel_Login.Size = new Size(437, 646);
+            panel_Login.Size = new Size(437, 524);
             panel_Login.TabIndex = 0;
             // 
-            // lblCentralTec
+            // pictureBox3
             // 
-            lblCentralTec.Anchor = AnchorStyles.Top;
-            lblCentralTec.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCentralTec.ForeColor = Color.White;
-            lblCentralTec.Location = new Point(0, 83);
-            lblCentralTec.Name = "lblCentralTec";
-            lblCentralTec.Size = new Size(437, 65);
-            lblCentralTec.TabIndex = 0;
-            lblCentralTec.Text = "Central Tec";
-            lblCentralTec.TextAlign = ContentAlignment.MiddleCenter;
-            lblCentralTec.Click += label1_Click;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(148, 456);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(185, 45);
+            pictureBox3.TabIndex = 8;
+            pictureBox3.TabStop = false;
             // 
-            // lblLogin
+            // txtSenha
             // 
-            lblLogin.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblLogin.ForeColor = Color.FromArgb(194, 194, 194);
-            lblLogin.Location = new Point(-3, 139);
-            lblLogin.Name = "lblLogin";
-            lblLogin.Size = new Size(437, 35);
-            lblLogin.TabIndex = 1;
-            lblLogin.Text = "LOGIN";
-            lblLogin.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.ForeColor = Color.FromArgb(194, 194, 194);
-            label1.Location = new Point(23, 247);
-            label1.Name = "label1";
-            label1.Size = new Size(60, 15);
-            label1.TabIndex = 2;
-            label1.Text = "lblUsuario";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(23, 357);
-            label2.Name = "label2";
-            label2.Size = new Size(52, 15);
-            label2.TabIndex = 3;
-            label2.Text = "lblSenha";
+            txtSenha.Anchor = AnchorStyles.Left;
+            txtSenha.BackColor = Color.FromArgb(199, 211, 228);
+            txtSenha.BorderStyle = BorderStyle.None;
+            txtSenha.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtSenha.ForeColor = SystemColors.Menu;
+            txtSenha.ImeMode = ImeMode.NoControl;
+            txtSenha.Location = new Point(20, 324);
+            txtSenha.Multiline = true;
+            txtSenha.Name = "txtSenha";
+            txtSenha.Size = new Size(397, 25);
+            txtSenha.TabIndex = 6;
             // 
             // txtUsuario
             // 
-            txtUsuario.BackColor = Color.FromArgb(11, 41, 65);
+            txtUsuario.Anchor = AnchorStyles.Left;
+            txtUsuario.BackColor = Color.FromArgb(199, 211, 228);
             txtUsuario.BorderStyle = BorderStyle.None;
+            txtUsuario.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtUsuario.ForeColor = SystemColors.Menu;
-            txtUsuario.Location = new Point(20, 279);
+            txtUsuario.ImeMode = ImeMode.NoControl;
+            txtUsuario.Location = new Point(20, 230);
+            txtUsuario.Multiline = true;
             txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(397, 16);
+            txtUsuario.Size = new Size(397, 25);
             txtUsuario.TabIndex = 4;
+            txtUsuario.TextChanged += txtUsuario_TextChanged;
+            txtUsuario.KeyPress += txtUsuario_KeyPress;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(437, 524);
+            pictureBox2.TabIndex = 7;
+            pictureBox2.TabStop = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(11, 35, 65);
+            panel1.Location = new Point(945, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(960, 1045);
+            panel1.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(-1, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(949, 1045);
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(11, 35, 65);
+            BackColor = Color.White;
             ClientSize = new Size(1904, 1041);
+            Controls.Add(pictureBox1);
             Controls.Add(panel_Login);
+            Controls.Add(panel1);
             Location = new Point(0, 253);
             Name = "Form1";
             Text = "Form1";
             panel_Login.ResumeLayout(false);
             panel_Login.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel_Login;
-        private Label lblCentralTec;
-        private Label lblLogin;
         private TextBox txtUsuario;
-        private Label label2;
-        private Label label1;
+        private TextBox txtSenha;
+        private Panel panel1;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
     }
 }

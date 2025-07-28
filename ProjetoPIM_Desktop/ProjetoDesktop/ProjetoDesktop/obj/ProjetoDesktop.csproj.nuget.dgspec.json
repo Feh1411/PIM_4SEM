@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\ProjetoDesktop.csproj": {}
+    "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\PIM_4SEM\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\ProjetoDesktop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\ProjetoDesktop.csproj": {
+    "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\PIM_4SEM\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\ProjetoDesktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\ProjetoDesktop.csproj",
+        "projectUniqueName": "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\PIM_4SEM\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\ProjetoDesktop.csproj",
         "projectName": "ProjetoDesktop",
-        "projectPath": "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\ProjetoDesktop.csproj",
+        "projectPath": "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\PIM_4SEM\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\ProjetoDesktop.csproj",
         "packagesPath": "C:\\Users\\felipe.aguilar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\obj\\",
+        "outputPath": "C:\\Users\\felipe.aguilar\\Documents\\Faculdade\\PIM_4SEM\\ProjetoPIM_Desktop\\ProjetoDesktop\\ProjetoDesktop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
