@@ -1,10 +1,13 @@
 namespace ProjetoDesktop
 {
-    public partial class Form1 : Form
+    public partial class frmProjetoDesktop : Form
     {
-        public Form1()
+        public frmProjetoDesktop()
         {
             InitializeComponent();
+
+            MenuLateral.Width = 200;
+            MenuLateral.Dock = DockStyle.Left;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -36,6 +39,20 @@ namespace ProjetoDesktop
         }
 
         private void lblLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void frmProjetoDesktop_Load(object sender, EventArgs e)
+        {
+            MenuLateral.Height = this.ClientSize.Height;
+        }
+
+        private void frmProjetoDesktop_Click(object sender, EventArgs e)
         {
 
         }
